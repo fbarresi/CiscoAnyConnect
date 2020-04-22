@@ -22,10 +22,11 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     
-    - name: Choco pack
-      uses: crazy-max/ghaction-chocolatey@v1
-      with:
-        args: pack ciscoanyconnect.nuspec
+    - name: Setup Nuget CLI
+      uses: warrenbuckley/Setup-Nuget@v1
+
+    - name: Nuget Pack
+      run: nuget pack ciscoanyconnect.nuspec
 
     # Runs a set of commands using the runners shell
     - name: publish
