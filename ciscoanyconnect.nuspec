@@ -35,9 +35,10 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>CiscoAnyConnect (Install)</title>
-    <authors>the web</authors>
+    <authors>Federico Barresi</authors>
+    <RepositoryUrl>https://github.com/fbarresi/CiscoAnyConnect</RepositoryUrl>
     <!-- projectUrl is required for the community feed -->
-    <!-- <projectUrl>https://_Software_Location_REMOVE_OR_FILL_OUT_</projectUrl> -->
+    <projectUrl>https://github.com/fbarresi/CiscoAnyConnect</projectUrl>
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/ciscoanyconnect.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
