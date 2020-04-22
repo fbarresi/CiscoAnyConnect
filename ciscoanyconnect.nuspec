@@ -39,6 +39,8 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<RepositoryUrl>https://github.com/fbarresi/CiscoAnyConnect</RepositoryUrl>-->
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/fbarresi/CiscoAnyConnect</projectUrl>
+    <repository type="git" url="https://github.com/fbarresi/CiscoAnyConnect" branch="master" />
+
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/ciscoanyconnect.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
