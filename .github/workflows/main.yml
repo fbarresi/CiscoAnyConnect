@@ -34,4 +34,4 @@ jobs:
         nupkg-path:  '*.nupkg'
         repo-owner:  'fbarresi'
         gh-user:  'fbarresi'
-        token:  ${{ secrets.GITHUB_TOKEN }}
+        token:  ${{ secrets.TOKEN }}
