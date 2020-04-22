@@ -22,8 +22,10 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     
-    - name: Setup Nuget CLI
-      uses: warrenbuckley/Setup-Nuget@v1
+    - name: setup nuget
+      uses: nuget/setup-nuget@v1
+      with:
+        nuget-version: latest
 
     - name: Nuget Pack
       run: nuget pack ciscoanyconnect.nuspec
